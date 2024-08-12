@@ -6,10 +6,14 @@ public class smartTv {
 
     public void aumentarVolume(){
         volume++;
+        System.out.println("Aumentando volume para: " + volume);
+        //volume = volume + 1;
     }
 
     public void diminuirVolume(){
         volume--;
+        System.out.println("Diminuindo volume para: " + volume);
+        //volume = volume - 1;
     }
 
     public void ligar(){
