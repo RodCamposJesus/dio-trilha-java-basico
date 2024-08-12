@@ -17,6 +17,24 @@ public class Comentarios {
 
           }
 
+          /*
+           * Este método foi elaborado as pressas
+           * por isso  eu abreviei  o nome das variáveis
+           * mas olha,  ele tem a finalidade  somar ou multiplicar
+           * dois números
+           */
+          public int somaMultiplica()int n, int x, String m){
+            int r = 0; //r é igual ao resultado
+            if(m == "M"){ //M = multiplicação
+                r = n * x;
+            }else {
+                // se nao soma mesmo
+                r = n + x;
+            }
+            return r;
+
+          }
+
     }
 
 }
