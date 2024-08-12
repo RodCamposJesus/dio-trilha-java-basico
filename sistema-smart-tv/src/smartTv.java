@@ -3,9 +3,25 @@ public class smartTv {
     int canal = 1;
     int volume = 25;
 
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+    }
+
+    public void aumentarCanal(){
+        canal++;
+        //System.out.println("Aumentando para o canal: " + canal);
+        //canal = canal + 1;
+    }
+
+    public void diminuirCanal(){
+        canal--;
+        //System.out.println("Diminuindo para o canal: " + canal);
+        //canal = canal - 1;
+    }
+
 
     public void aumentarVolume(){
-        volume++;
+        canal++;
         System.out.println("Aumentando volume para: " + volume);
         //volume = volume + 1;
     }
