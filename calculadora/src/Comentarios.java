@@ -23,7 +23,7 @@ public class Comentarios {
            * mas olha,  ele tem a finalidade  somar ou multiplicar
            * dois números
            */
-          public int somaMultiplica()int n, int x, String m){
+          public int somaMultiplica(int n, int x, String m){
             int r = 0; //r é igual ao resultado
             if(m == "M"){ //M = multiplicação
                 r = n * x;
@@ -32,8 +32,6 @@ public class Comentarios {
                 r = n + x;
             }
             return r;
-
-          }
 
     }
 
