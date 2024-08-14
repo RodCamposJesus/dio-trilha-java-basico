@@ -1,6 +1,6 @@
 /** 
 * @author Rodrigo
-* @Version 1.0
+* @version 1.0
 * @since 01/01/2022
 */
 
