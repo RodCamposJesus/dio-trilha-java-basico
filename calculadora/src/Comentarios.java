@@ -1,5 +1,7 @@
 public class Comentarios {
     public static void main(String[] args) {
+        
+    }
         //Olá eu sou um comentário em uma única linha
          
         /* Olá
@@ -13,9 +15,7 @@ public class Comentarios {
            * pretende elaborar um  comentário
            * em forma de documentação
            */
-          public void metodo(){
-
-          }
+    
 
           /*
            * Este método foi elaborado as pressas
