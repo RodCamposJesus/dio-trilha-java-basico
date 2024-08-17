@@ -5,6 +5,13 @@ public class ExemploDoWhile {
         
         System.out.println("Discando");
 
+        do{
+            //executando repetidas vezes até alguém atender
+            System.err.println("Telefone tocando");
+
+        }while(tocando());
+        System.out.println("Alo!!!");
+
         
     }
     private static boolean tocando(){
