@@ -3,8 +3,9 @@ import java.util.Scanner;
 
 public class AboutMe {
     public static void main(String[] args)  {
-        //criando objeto scanner
+        try{
 
+        //criando objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Digite seu nome ");
@@ -23,5 +24,7 @@ public class AboutMe {
         System.out.println("Olá me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " " + "anos. ");
         System.out.println("Minha altura é " + altura + " " + "cm. ");
+        scanner.close();
+        }
     }
 }
